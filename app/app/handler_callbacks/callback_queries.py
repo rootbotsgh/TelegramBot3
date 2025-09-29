@@ -9,8 +9,8 @@ from telegram.ext import ContextTypes
 from admin_permission import is_admin
 from json_config import load_index, save_index
 from config import STORAGE_CHAT_ID, DEFAULT_SUBJECTS
-from .keyboard_menu import menu_handler
-from .other_callbacks import complete_tagging, remove_file_prompt
+from handler_callbacks.keyboard_menu import menu_handler
+from handler_callbacks.other_callbacks import complete_tagging, remove_file_prompt
 
 
 async def remove_file_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):

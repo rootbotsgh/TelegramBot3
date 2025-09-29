@@ -11,7 +11,8 @@ from telegram.error import BadRequest, TelegramError
 from keyboard_buttons import admin_keyboard, user_keyboard
 from admin_permission import is_admin
 from json_config import load_index, save_index
-from .other_callbacks import (
+from handler_callbacks.keyboard_menu import menu_handler
+from handler_callbacks.other_callbacks import (
     next_file, ask_year)
 
 

@@ -12,14 +12,11 @@ from telegram.ext import (
 
 from config import BOT_TOKEN
 from channels_rw import handle_channel_post
-from handler_callbacks.command_handlers import (
-     start, tag_batch, set_subjects, tag_all_command,
-    clean_index, skip_file,
-)
-from handler_callbacks.callback_queries import (
-    handle_text,
+from handler_callbacks import (
+    start, tag_batch, set_subjects, tag_all_command,
+    clean_index, handle_text,
     handle_document, subject_selected, year_selected,
-    tagall_subject_selected, tagall_year_selected,
+    skip_file, tagall_subject_selected, tagall_year_selected,
     remove_subject_callback, remove_file_callback, remove_nav_callback
 )
 

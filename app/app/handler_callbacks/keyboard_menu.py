@@ -7,11 +7,11 @@ from telegram.ext import ContextTypes
 
 from admin_permission import is_admin
 
-from .command_handlers import (
+from handler_callbacks.command_handlers import (
 start,
 tag_all_command,
 tag_batch)
-from .other_callbacks import (
+from handler_callbacks.other_callbacks import (
     remove_file_prompt,
     remove_subject_prompt)
 
