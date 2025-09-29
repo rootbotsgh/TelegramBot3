@@ -8,3 +8,6 @@ This bot allows an admin to share documents like pdfs and images(using document 
 
 3. run script
  [ ./setup.sh ] OR [bash setup.sh] OR [source setup.sh]
+
+
+tmux session data stored in a generated file tmux_session.txt
